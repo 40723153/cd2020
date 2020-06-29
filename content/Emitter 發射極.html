@@ -154,9 +154,38 @@ img.add_border {
           </div>
           
         </header>
-    <div id="tipue_search_content">第十週 << <a href='第十週.html'>Previous</a> <a href='第十二週.html'>Next</a> >> 第十二週<br /><h1>第十一週</h1>
-<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/Y-v5v3glZM4" width="560"></iframe></p>
-<br />第十週 << <a href='第十週.html'>Previous</a> <a href='第十二週.html'>Next</a> >> 第十二週</div>
+    <div id="tipue_search_content">Display 顯示 << <a href='Display 顯示.html'>Previous</a> <a href='Assiganment3.html'>Next</a> >> Assiganment3<br /><h1>Emitter 發射極</h1>
+<p>發射極</p>
+<p><img alt="" height="167" src="./../images/發射極程式.png" width="500"/></p>
+<p><strong>Description 描述</strong></p>
+<p>“發射器”節點用於建模無線電，串行或紅外發射器。 必須將“發射器”節點添加到機器人或主管的子代中。 請注意，發射器可以發送數據，但不能接收數據。 為了模擬兩個機器人之間的單向通信，一個機器人必須具有發射器，而另一個機器人必須具有接收器。 為了模擬兩個機器人之間的雙向通信，每個機器人都需要同時具有發射器和接收器。 請注意，消息永遠不會從一個機器人傳輸到自身。</p>
+<p>Field Summary 領域摘要</p>
+<ul>
+<li>
+<p><code>類型(type)</code>: 信號類型：“無線電”，“串行”或“紅外”。傳輸類型為“無線電”（默認）和“串行”的信號時不會考慮障礙。但是，“紅外”類型的信號確實考慮了發射器和接收器之間的潛在障礙。具有定義的邊界對象的任何固體對象（固體，機器人等）都可能成為“紅外”通信的潛在障礙。發射或接收機器人的結構本身不會阻止“紅外”傳輸。當前，“無線電”和“串行”類型之間沒有實現上的區別。</p>
+</li>
+<li>
+<p><code>範圍(range)</code>: 發射球的半徑（以米為單位）。如果接收方位於發射範圍內，則它只能接收一條消息。範圍的值-1（默認值）被視為無限範圍。</p>
+</li>
+<li>
+<p><code>最大範圍(maxRange)</code>: 定義範圍允許的最大值。該字段定義可以使用wb_emitter_set_range函數設置的最大值。 maxRange的值-1（默認值）被認為是無限的。</p>
+</li>
+<li>
+<p><code>孔徑(aperture):發射錐的張開角（弧度）；僅用於“紅外”。圓錐體的頂點位於發射器坐標系的原點（[0 0 0]），並且圓錐體的軸與發射器坐標系的z軸重合。 “紅外”發射器只能將數據發送到當前位於其發射錐內的接收器。 -1的孔徑（默認）被認為是無限大的，這意味著發射的信號是全向的。對於“無線電”和“串行”發射器，將忽略此字段。有關範圍和光圈的圖示，請參見此圖。</code></p>
+<code><img alt="" height="361" src="./../images/emitter_receiver.png" width="382"/></code></li>
+<li>
+<p><code>頻道(channel)</code>: 傳輸通道。這是“紅外線”發射器的標識號或“無線電”發射器的頻率。通常，接收器必須使用與發射器相同的通道來接收發射的數據。但是，特殊頻道-1允許在所有頻道上廣播消息。通道0（默認）保留用於與物理插件通信。對於機器人之間的通信，請使用正數通道號。</p>
+</li>
+<li>
+<p><code>波特率(baudRate)</code>: 波特率是以每秒位數表示的通信速度。 -1的baudRate（默認值）被視為無窮大，並導致數據立即（在一個基本時間步內）從發射器傳輸到接收器。</p>
+</li>
+<li>
+<p><code>字節大小byteSize</code>: 字節大小是傳輸一個字節信息所需的位數。 通常為8（默認值），但如果使用控制位，則可以更多。</p>
+</li>
+<li>
+<p><code>緩衝區大小(bufferSize)</code>: 指定傳輸緩衝區的大小（以字節為單位）。 發射器中排隊的數據包中的字節總數不能超過此數目。 -1的bufferSize（默認值）被視為無限的緩衝區大小。</p>
+</li>
+</ul><br />Display 顯示 << <a href='Display 顯示.html'>Previous</a> <a href='Assiganment3.html'>Next</a> >> Assiganment3</div>
         
     <!-- footer -->
       <div class="container">
