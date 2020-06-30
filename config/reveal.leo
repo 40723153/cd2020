@@ -21,8 +21,29 @@
 <v t="leo.20180902120523.9"><vh>封面投影片</vh>
 <v t="leo.20180902120523.10"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20180902120523.11"><vh>快捷鍵</vh>
-<v t="leo.20180902120523.12"><vh>投影片快捷鍵</vh></v>
+<v t="leo.20180902120523.11"><vh>W1-W5</vh>
+<v t="leo.20180902120523.12"><vh>內容</vh></v>
+</v>
+<v t="leo.20200701023346.1"><vh>亂數分組</vh>
+<v t="leo.20200701023346.2"><vh>內容</vh></v>
+</v>
+<v t="leo.20200701023352.1"><vh>W6-W10</vh>
+<v t="leo.20200701023352.2"><vh>投影片快捷鍵</vh></v>
+</v>
+<v t="leo.20200701023349.1"><vh>webots介紹翻譯</vh>
+<v t="leo.20200701023349.2"><vh>內容</vh></v>
+</v>
+<v t="leo.20200701023357.1"><vh>onshape繪圖</vh>
+<v t="leo.20200701023357.2"><vh>內容</vh></v>
+</v>
+<v t="leo.20200701023355.1"><vh>文章感想</vh>
+<v t="leo.20200701023355.2"><vh>內容</vh></v>
+</v>
+<v t="leo.20200701023520.1"><vh>W11-W15</vh>
+<v t="leo.20200701023520.2"><vh>投影片快捷鍵</vh></v>
+</v>
+<v t="leo.20200701023524.1"><vh>Virtualbox</vh>
+<v t="leo.20200701023524.2"><vh>投影片快捷鍵</vh></v>
 </v>
 <v t="leo.20180902120523.13"><vh>各式內容引用範例</vh>
 <v t="leo.20180902120523.14"><vh>導入數學符號與方程式</vh>
@@ -62,15 +83,13 @@ Created by [40723153](https://40723153.github.io/cd2020/content/index.html)
 
 						
 </t>
-<t tx="leo.20180902120523.12"># 投影片快捷鍵
+<t tx="leo.20180902120523.12"># 每週進度
 
-* 利用箭頭上下前後換頁
-* 按 f 鍵進入全螢幕模式 (full screen)
-* 按 s 鍵可以顯示投影片筆記 (show)
-* 按 o 鍵可以切換單張或全域檢視 (overview)
-* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
-* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
-
+ * W1第一週是說明學期任務和建立倉儲
+ * W2 更新python至3.8.2版本
+ * W3研究亂數分組規則
+ * W4整理亂數分組的報告
+ * W5分配webots翻譯內容
 </t>
 <t tx="leo.20180902120523.13">&lt;section&gt;
 @others
@@ -319,5 +338,132 @@ QLineEdit#editorLabel {
 }</t>
 <t tx="leo.20180902120538.3">horizontal: body pane to the left
 vertical: body pane on the botton</t>
+<t tx="leo.20200701023346.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200701023346.2"># 亂數分組
+ ### 亂數分組可以大致上分為4個步驟
+ * 1.抓出學員資料
+ 利用Python的requests模組來抓取網頁上的學生名單
+ * 2.將學生名單轉為文字檔
+ 將抓取到的學生名單進行轉換(文字檔才可進行轉換數列)
+ * 3.再將文字檔內容轉為數列
+ 將轉換後的文字檔間使用空白格或頓號進行區隔
+ * 4.使用random模組將數列亂數分組
+ 將轉換好的數列進行隨機排列分組
+
+(random主要是運用在將函數中的順序打亂)
+
+</t>
+<t tx="leo.20200701023349.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200701023349.2"># webots介紹翻譯
+
+我分配到的章節有
+### Brake 制動器
+### Connector 連接器
+### Display 顯示
+### Emitter 發射極
+
+
+
+</t>
+<t tx="leo.20200701023352.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200701023352.2"># 每週進度
+
+ * W6第一週是說明學期任務和建立倉儲
+ * W7 期中影片繳交
+ * W8研究亂數分組規則
+ * W9了解虛擬主機並安裝
+ * W10 IPV4與IPV6設定
+
+</t>
+<t tx="leo.20200701023355.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200701023355.2"># Top 0感想
+
+合作不只是行為更是一種未來的趨勢，從古至今合作的觀念一直是被推崇的，從【單絲不成線，獨木不成林】 、【萬人操弓，共射一招，招無不中】。等諺語就能知道。在工作上一個人或許可以迅速的決定所有事情，但一個人絕對比不上數個人加起來的能力，透過合作讓每個人發揮自己的特長讓效率以倍數增加。看完這個章節讓我更加理解到協同的重要性，而在協同前也需要做許多的準備，無論是個人心態的調整抑或是選用協同的工具都是非常重要的，我也學到了很多協同的優點，讓我印象深刻的是能讓客戶參與產品設計過程，透過讓客戶的參與能加速溝通的效率，更能讓消費端理解設計者的用意和進度過程，創造雙贏的局面。
+</t>
+<t tx="leo.20200701023357.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200701023357.2"># Onshape繪圖
+
+作業其中一項是需要在onshape上繪圖,並協同共用零件進行組裝
+
+雖然我沒有被分配到零件但仍舊可以自己進行練習學習繪圖和共用的方法
+</t>
+<t tx="leo.20200701023520.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200701023520.2"># 投影片快捷鍵
+
+* 利用箭頭上下前後換頁
+* 按 f 鍵進入全螢幕模式 (full screen)
+* 按 s 鍵可以顯示投影片筆記 (show)
+* 按 o 鍵可以切換單張或全域檢視 (overview)
+* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
+* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
+
+</t>
+<t tx="leo.20200701023524.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200701023524.2"># 投影片快捷鍵
+
+* 利用箭頭上下前後換頁
+* 按 f 鍵進入全螢幕模式 (full screen)
+* 按 s 鍵可以顯示投影片筆記 (show)
+* 按 o 鍵可以切換單張或全域檢視 (overview)
+* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
+* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
+
+</t>
 </tnodes>
 </leo_file>
