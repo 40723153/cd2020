@@ -422,7 +422,7 @@ vertical: body pane on the botton</t>
 </t>
 <t tx="leo.20200701023357.2">## Onshape繪圖
 繪圖影片
-&lt;iframe src="https://youtu.be/Qg9Jmt8famM" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/Qg9Jmt8famM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 
 </t>
 <t tx="leo.20200701023520.1">&lt;section data-markdown&gt;
